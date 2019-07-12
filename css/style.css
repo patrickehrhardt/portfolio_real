@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+}
+#firstpage {
+  height: 100vh;
+  margin: auto;
+  z-index: 1;
+
+  background-attachment: fixed;
+  background-image: url(../image/background1.png);
+  background-size: cover;
+
+  /*filter: grayscale(2);*/
+}
+#firstpage header {
+  width: 100%;
+  height: 6%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+
+  z-index: 2;
+
+  background-color: #595739;
+  opacity: 0.13;
+}
+
+/* navigation field */
+#sidenav {
+  width: 25vh;
+  height: 100vh;
+
+  float: right;
+  z-index: 3;
+
+  background-color: #595739;
+
+  font-family: "Advent Pro", sans-serif;
+  font-size: 26px;
+}
+
+/* button for the menu*/
+#menu_button a {
+  color: #d7d7d9;
+  text-decoration: none;
+
+  position: relative;
+  top: -18vh;
+}
+
+a:hover {
+  color: #8c8b88;
+}
+
+ul {
+  list-style: none;
+  position: absolute;
+  top: 15vh;
+  left: 89vw;
+  bottom: 8vh;
+  right: 2vw;
+}
+
+ul li {
+  padding: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #d7d7d9;
+}
+ul li a:hover {
+  color: #8c8b88;
+}
+/* main field */
+main {
+  padding: 15% 25% 20% 40%;
+}
+#name {
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 48px;
+}
+#lastname {
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 48px;
+}
+#om {
+  font-family: "Alegreya SC", serif;
+  color: #40312c;
+  font-size: 30px;
+}
+#wd {
+  font-family: "Alegreya SC", serif;
+  color: #40312c;
+  font-size: 30px;
+}
+
+/*about page*/
+
+#aboutpage {
+  height: 100vh;
+  background-color: #d7d7d9;
+}
+
+#about_heading {
+  padding: 2% 65% 1% 20%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 48px;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#about_picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  padding: 10% 10%;
+  margin-right: 5%;
+
+  background-image: url(../image/me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about_text {
+  width: 500px;
+  height: 500px;
+
+  margin: 5% 2% 5% 5%;
+  padding: 1% 1%;
+}
+
+/*skills page*/
+
+#skillspage {
+  height: 100vh;
+
+  background-color: #d7d7d9;
+}
+#skills_heading {
+  padding: 2% 65% 1% 20%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 48px;
+  opacity: 0.13;
+}
+#skills_name {
+  padding: 2% 65% 1% 20%;
+  width: 80px;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 60px;
+}
+.skills_text {
+  width: 15vw;
+  height: 15vh;
+  margin-left: 100%;
+  margin-top: 15%;
+}
+.caption {
+  width: 10wh;
+  height: 2vh;
+  margin-top: 15%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 28px;
+}
+.explain {
+  width: 25vw;
+  height: 2vh;
+  margin-top: 15%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 12px;
+}
+
+#seo {
+  background-image: url(../image/seo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  width: 180px;
+  height: 180px;
+
+  margin: 4% 2% 5% 13%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 15px;
+}
+
+#sem {
+  background-image: url(../image/sem.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  width: 150px;
+  height: 150px;
+
+  margin: 6% 2% 5% 20%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #40312c;
+  font-size: 15px;
+}
+
+#contactpage {
+  height: 100vh;
+
+  background-color: #595739;
+}
+#contact_heading {
+  padding: 2% 65% 1% 20%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #d7d7d9;
+  font-size: 48px;
+}
+#contact_heading2 {
+  padding: 8% 30% 1% 40%;
+
+  font-family: "Abril Fatface", cursive;
+  color: #d7d7d9;
+  font-size: 48px;
+}
+#contact_text {
+  padding: 1% 1% 1% 20%;
+
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 20px;
+}
+textarea {
+  width: 55vw;
+  height: 20vh;
+
+  font-family: "Abril Fatface", cursive;
+  color: #d7d7d9;
+  font-size: 20px;
+
+  background-color: #595739;
+
+  margin-left: 20%;
+  padding: 1% 1% 1% 1%;
+}
+#email {
+  width: 15vw;
+  height: 2vh;
+
+  padding: 1% 1% 1% 1%;
+  margin-top: 3%;
+  margin-left: 4%;
+
+  background-color: #595739;
+
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 20px;
+}
+
+#fullname {
+  width: 15vw;
+  height: 2vh;
+
+  padding: 1% 1% 1% 1%;
+  margin-top: 3%;
+  margin-left: 20%;
+
+  background-color: #595739;
+
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 20px;
+}
+
+#submit {
+  width: 15vw;
+  height: 6.5vh;
+
+  margin-top: 3%;
+  margin-left: 4%;
+
+  background-color: #595739;
+
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 20px;
+}
+
+#footer_page {
+  width: 100%;
+  background-color: #d7d7d9;
+
+  padding: 3% 25% 5% 42%;
+}
+
+#footer_page a {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#footer_page .fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+#footer_page .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+#footer_page .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+/* Youtube */
+#footer_page .fa-youtube {
+  background: red;
+  color: white;
+}
+/* Github */
+#footer_page .fa-github {
+  background: black;
+  color: white;
+}

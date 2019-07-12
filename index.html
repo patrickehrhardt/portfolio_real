@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Patrick Ehrhardt</title>
+    <meta charset="utf-8" />
+    <meta name="Patrick Ehrhardt" content="Portfolio" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <!--<script type="text/javascript" src="./js/script.js"></script>*/-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Social buttons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--firstpage-->
+    <div id="firstpage">
+      <!--Bar with menu-->
+      <header></header>
+      <!--sidenavigation static-->
+      <nav id="sidenav">
+        <ul>
+          <li id="menu_button">
+            <a href="#">Menu</a>
+          </li>
+          <li><a href="#firstpage">Home</a></li>
+          <li><a href="#aboutpage">About</a></li>
+          <li><a href="#skillspage">Skills</a></li>
+          <li><a href="#contactpage">Contact</a></li>
+        </ul>
+        <!--button to open the side menu, but static now-->
+      </nav>
+
+      <!--main textblog-->
+      <main>
+        <section>
+          <article id="name">Patrick</article>
+          <article id="lastname">Ehrhardt</article>
+          <article id="om">Online Marketing</article>
+          <article id="wd">Webdevelopment & -design</article>
+        </section>
+      </main>
+
+      <!--footer arrow-->
+
+      <footer>
+        <div class="arrow"></div>
+      </footer>
+    </div>
+
+    <!--aboutpage-->
+    <div id="aboutpage">
+      <div id="about_heading">
+        About
+      </div>
+      <div class="flex">
+        <div id="about_text">
+          <!--1 Absatz-->
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore <br />
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          <br />
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+          <br />
+          sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+          <br />
+          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <br /><br />
+
+          <!--2 Absatz-->
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore <br />
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          <br />
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+          <br />
+          sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+          <br />
+          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <br /><br />
+
+          <!--3 Absatz-->
+
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore <br />
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          <br />
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+          <br />
+          sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+          <br />
+          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <br /><br />
+        </div>
+        <div id="about_picture"></div>
+      </div>
+    </div>
+
+    <!--Skillpage-->
+    <div id="skillspage">
+      <div id="skills_heading">
+        Skills
+      </div>
+
+      <div id="skills_name">
+        Online Marketing
+      </div>
+
+      <div class="flex">
+        <div id="seo">
+          <div class="skills_text">
+            Lorem ipsum dolor sit<br />
+            amet, consetetur sadipscing<br />
+            elitr, sed diam nonumy<br />
+            eirmod tempor
+          </div>
+          <div class="caption">SEO</div>
+          <div class="explain">Search Engine Optimization</div>
+        </div>
+        <div id="sem">
+          <div class="skills_text">
+            Lorem ipsum dolor sit<br />
+            amet, consetetur sadipscing<br />
+            elitr, sed diam nonumy<br />
+            eirmod tempor
+          </div>
+          <div class="caption">SEM</div>
+          <div class="explain">Search Engine Marketing</div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contactpage-->
+    <div id="contactpage">
+      <!--Get in touch---------------------------------------------------->
+      <div id="contact_heading">
+        Contact
+      </div>
+      <!--Get in touch---------------------------------------------------->
+      <div id="contact_heading2">
+        Get in touch
+      </div>
+
+      <div id="contact_text">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt<br />
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+        et accusam
+      </div>
+
+      <form action="index.php">
+        <textarea
+          id="Mesasge"
+          type="text"
+          placeholder="Message"
+          required
+        ></textarea>
+        <div class="flex">
+          <input id="fullname" type="text" placeholder="Full name" required />
+          <br />
+          <input id="email" type="text" placeholder="Email Address" required />
+          <br />
+          <input type="submit" id="submit" value="Send" />
+        </div>
+      </form>
+    </div>
+
+    <!--footerpage-->
+    <div class="flex">
+      <div id="footer_page">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-github"></a>
+      </div>
+    </div>
+  </body>
+</html>
